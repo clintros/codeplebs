@@ -25,7 +25,10 @@ const row = new MessageActionRow().addComponents(
     .setCustomId("js")
     .setLabel("Javascript")
     .setStyle("PRIMARY"),
-  new MessageButton().setCustomId("ruby").setLabel("Ruby").setStyle("PRIMARY")
+  new MessageButton()
+    .setCustomId("ruby")
+    .setLabel("Ruby")
+    .setStyle("PRIMARY")
 );
 
 module.exports = {
